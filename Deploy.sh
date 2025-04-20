@@ -1,6 +1,5 @@
 #!/bin/bash
  
-# Variables
 echo "Deployment Branch:$BRANCH_NAME"
 if  [ "$BRANCH_NAME" = "dev" ]; then
 docker stop myreact-app || true

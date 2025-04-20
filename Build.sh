@@ -1,6 +1,5 @@
 #!/bin/bash
  
-# Variables
 echo "Current Branch: $BRANCH_NAME"
  
 if [ "$BRANCH_NAME" == "dev" ]; then
